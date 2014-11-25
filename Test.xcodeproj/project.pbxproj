@@ -14,6 +14,7 @@
 		0482E40C1A2323AD00AAB7CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0482E40B1A2323AD00AAB7CA /* Images.xcassets */; };
 		0482E40F1A2323AD00AAB7CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0482E40D1A2323AD00AAB7CA /* LaunchScreen.xib */; };
 		0482E41B1A2323AE00AAB7CA /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482E41A1A2323AE00AAB7CA /* TestTests.m */; };
+		0482E4261A23249900AAB7CA /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0482E4251A23249900AAB7CA /* MyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		0482E4141A2323AD00AAB7CA /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0482E4191A2323AE00AAB7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0482E41A1A2323AE00AAB7CA /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		0482E4241A23249900AAB7CA /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		0482E4251A23249900AAB7CA /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				0482E4031A2323AD00AAB7CA /* AppDelegate.m */,
 				0482E4051A2323AD00AAB7CA /* ViewController.h */,
 				0482E4061A2323AD00AAB7CA /* ViewController.m */,
+				0482E4241A23249900AAB7CA /* MyTableViewCell.h */,
+				0482E4251A23249900AAB7CA /* MyTableViewCell.m */,
 				0482E4081A2323AD00AAB7CA /* Main.storyboard */,
 				0482E40B1A2323AD00AAB7CA /* Images.xcassets */,
 				0482E40D1A2323AD00AAB7CA /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0482E4071A2323AD00AAB7CA /* ViewController.m in Sources */,
+				0482E4261A23249900AAB7CA /* MyTableViewCell.m in Sources */,
 				0482E4041A2323AD00AAB7CA /* AppDelegate.m in Sources */,
 				0482E4011A2323AD00AAB7CA /* main.m in Sources */,
 			);
